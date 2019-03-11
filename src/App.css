@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.controls {
+  height: 5rem;
+  flex: 1 1 100%;
+  display: flex; 
+  flex-direction: row; 
+}
+
+.axis {
+  color: white;
+}
+
+.axis path,
+.axis text,
+.axis line {
+  fill: none;
+  stroke: white;
+  shape-rendering: crispEdges;
+}
+
+.tooltip {
+  padding-top: 20px;
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  pointer-events: none;
+  background: white;
+  border-radius: 5px;
+}
+
+.tooltip h3 {
+  font-size: 1em;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.tooltip p {
+  margin: 0;
+  font-size: 0.8em;
+}
+
